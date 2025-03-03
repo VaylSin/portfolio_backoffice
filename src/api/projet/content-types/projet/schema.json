@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projets",
+  "info": {
+    "singularName": "projet",
+    "pluralName": "projets",
+    "displayName": "Projet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "stack": {
+      "type": "string"
+    },
+    "Categorie": {
+      "type": "enumeration",
+      "enum": [
+        "Wordpress",
+        "Woocommerce",
+        "Applications Web",
+        "Optimisation SEO",
+        "Landing Page"
+      ]
+    }
+  }
+}

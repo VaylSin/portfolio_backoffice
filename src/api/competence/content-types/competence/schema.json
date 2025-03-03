@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "competences",
+  "info": {
+    "singularName": "competence",
+    "pluralName": "competences",
+    "displayName": "Compétence",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nom": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "FaHtml5",
+        "FaCss3",
+        "FaJs",
+        "FaReact",
+        "FaSymfony",
+        "FaWordpress",
+        "SiTailwindcss",
+        "SiNextdotjs"
+      ]
+    }
+  }
+}

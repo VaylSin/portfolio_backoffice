@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursuses",
+  "info": {
+    "singularName": "cursus",
+    "pluralName": "cursuses",
+    "displayName": "Cursus"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "lieu": {
+      "type": "string"
+    },
+    "duree": {
+      "type": "string"
+    }
+  }
+}

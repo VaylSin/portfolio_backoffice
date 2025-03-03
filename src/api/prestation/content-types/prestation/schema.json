@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestations",
+  "info": {
+    "singularName": "prestation",
+    "pluralName": "prestations",
+    "displayName": "Prestation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "Presentation": {
+      "type": "blocks"
+    }
+  }
+}
