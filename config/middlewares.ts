@@ -31,8 +31,9 @@ export default [
 		name: "strapi::cors",
 		config: {
 			origin: [
-				"http://localhost:3000", // Votre frontend local
-				"https://skdigit.ocom", // Votre domaine Netlify
+				"http://localhost:3000", // localhost
+				"https://preprod.skdigit.com", // préprod
+				"https://skdigit.com", // prod
 			],
 			methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
 			headers: ["Content-Type", "Authorization"],
