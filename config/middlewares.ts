@@ -5,7 +5,7 @@ export default [
 		config: {
 			contentSecurityPolicy: {
 				directives: {
-					"default-src": ["'self'", "https://skdigit.com"],
+					"default-src": ["'self'", "https://admin.skdigit.fr"],
 					"script-src": [
 						"'self'",
 						"'unsafe-inline'",
@@ -32,6 +32,7 @@ export default [
 		config: {
 			origin: [
 				"http://localhost:3000", // localhost
+				"https://admin.skdigit.fr", // admin
 				"https://preprod.skdigit.com", // préprod
 				"https://skdigit.com", // prod
 			],
