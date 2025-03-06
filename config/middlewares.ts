@@ -33,7 +33,6 @@ export default [
 			origin: [
 				"http://localhost:3000", // localhost
 				"https://preprod.skdigit.com", // préprod
-				"https://admin.skdigit.fr", // BO
 				"https://skdigit.com", // prod
 			],
 			methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
